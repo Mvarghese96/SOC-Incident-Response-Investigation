@@ -1,0 +1,9 @@
+# SOC INCIDENT RESPONSE LAB - SUPPLEMENTAL EVIDENCE (FICTIONAL)
+# Date: 2026-11-20 | User: ajones | Source IP: 198.51.100.45
+# Format: timestamp | system | action | user | details
+2026-11-20 09:06:15 | Identity | SIGN_IN_SUCCESS | ajones | source_ip=198.51.100.45; device=unknown
+2026-11-20 09:06:40 | Mailbox | MAILBOX_OPENED | ajones | folder=Inbox
+2026-11-20 09:07:18 | Mailbox | FORWARDING_RULE_CREATED | ajones | destination=archive@external.example
+2026-11-20 09:07:59 | Mailbox | MESSAGE_ACCESSED | ajones | folder=Finance
+2026-11-20 09:10:00 | Identity | SESSION_ACTIVE | ajones | source_ip=198.51.100.45
+# external.example is a fictional training domain; do not contact it.

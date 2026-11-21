@@ -1,0 +1,19 @@
+# SOC INCIDENT RESPONSE LAB - FICTIONAL TRAINING LOG
+# Format: timestamp | event_id | username | source_ip | result
+# Windows-style Event IDs: 4625=failed logon, 4624=successful logon
+2026-11-20 09:00:11 | 4624 | jlee | 192.0.2.12 | SUCCESS
+2026-11-20 09:01:03 | 4624 | mroberts | 192.0.2.14 | SUCCESS
+2026-11-20 09:05:02 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:09 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:15 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:23 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:30 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:38 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:45 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:05:53 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:06:01 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:06:07 | 4625 | ajones | 198.51.100.45 | FAILED
+2026-11-20 09:06:15 | 4624 | ajones | 198.51.100.45 | SUCCESS
+2026-11-20 09:08:11 | 4624 | jlee | 192.0.2.12 | SUCCESS
+2026-11-20 09:10:01 | 4625 | mroberts | 192.0.2.14 | FAILED
+2026-11-20 09:10:23 | 4624 | mroberts | 192.0.2.14 | SUCCESS
